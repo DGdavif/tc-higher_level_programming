@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print ("".join([chr(c) for c in [111,98,106,101,99,116,45,111,114,105,101,110,116,101,100,32,112,114,111,103,114,97,109,109,105,110,103,32,119,105,116,104,32,80,121,116,104,111,110]]))
+str = "Python is an interpreted, interactive, object-oriented programming\ language that combines remarkable power with very clear syntax"
+print (str[39:67] + str[107:112] + str[:6])
+print (str)
