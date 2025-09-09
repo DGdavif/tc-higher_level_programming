@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 islower = _import_('7-islower').islower
 
 print("a is {}".format("lower" if islower("a") else "upper"))
