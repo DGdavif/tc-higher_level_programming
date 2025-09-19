@@ -1,19 +1,12 @@
 #!/usr/bin/python3
-def add(a, b):
-    """My addition function"""
-    return (a + b)
 
+if __name__ == "__main__":
+    from calculator_1 import add, sub, mul, div
 
-def sub(a, b):
-    """My subtraction function"""
-    return (a - b)
+    a = 10
+    b = 5
 
-
-def mul(a, b):
-    """My multiplication function"""
-    return (a * b)
-
-
-def div(a, b):
-    """My division function"""
-    return int(a / b)
+    print(f"{a} + {b} = {add(a, b)}")
+    print(f"{a} - {b} = {sub(a, b)}")
+    print(f"{a} * {b} = {mul(a, b)}")
+    print(f"{a} / {b} = {div(a, b)}")
