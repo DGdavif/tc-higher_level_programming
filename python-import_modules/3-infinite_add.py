@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-if _name_ == "_main_":
-    import sys
+import sys
 
+if __name__ == "__main__":
     total = 0
-    for i in range(1, len(sys.argv)):
-        total += int(sys.argv[i])
+    for arg in sys.argv[1:]:
+        total += int(arg)
     print(total)
